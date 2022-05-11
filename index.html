@@ -13,15 +13,17 @@
         <div class = "cajas-principales">
             <form class = "encriptar-desencriptar">
                 <input type = "text" class = "mensaje-usuario" placeholder = "Ingrese el texto aquí">   
-                <img src = "imgs/warning.png" class = "advertencia">
-                <p>Solo letras minúsculas y sin acentos</p>
+                <div class = "warning">
+                    <img src = "imgs/warning.png" class = "advertencia">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
                 <div class = "botones-encriptacion">
                     <button type = "button" class = "encriptar">Encriptar</button>
                     <button type = "button" class = "desencriptar">Desencriptar</button>
                 </div>
             </form>
             <div class = "mensaje-no-encontrado">
-                <img src = "imgs/muñeco.png">
+                <img class = "muñeco" src = "imgs/muñeco.png">
                 <p class = no-mensaje>Ningún mensaje fue encontrado</p>
                 <p class = "ingresar-mensaje">Ingrese el texto que desees encriptar o desencriptar</p>
             </div>

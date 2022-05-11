@@ -3,6 +3,7 @@ var userText = document.querySelector(".mensaje-usuario");
 var notFound = document.querySelector(".mensaje-no-encontrado");
 var revealedMessage = document.querySelector(".mensaje-revelado");
 var decrypted = document.querySelector(".mensaje-desencriptado");
+var footer = document.querySelector("footer");
 
 /*Botones*/
 var copyButton = document.querySelector(".copiar");
@@ -36,6 +37,7 @@ function encriptar() {
     notFound.style.display = "none";
     revealedMessage.style.display = "inline-block";
     decrypted.textContent = new_message;
+    footer.style.marginTop = "63%";
     return new_message;
 }
 
