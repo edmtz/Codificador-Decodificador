@@ -266,7 +266,7 @@ footer {
     }
 
     .mensaje-revelado {
-        margin-top: 50%;
+        margin-top: 70%;
         border: 2px solid gray;
         width: 85%;
         height: 90%;
@@ -274,11 +274,8 @@ footer {
 
     footer {
         width: 100%;
-<<<<<<< HEAD
         margin-top:35%;
-=======
         margin-top: 34%;
->>>>>>> gh-pages
         font-size: 10px;
         display: inline-block;
 
