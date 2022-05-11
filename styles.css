@@ -1,0 +1,161 @@
+body {
+    background-color: #F3F5FC;;
+    margin: 0 0;    
+}
+
+main {
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+
+.logo-alura {
+    margin: 0 0 2% 0;
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.cajas-principales {
+    /*border: 5px dotted blue;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.encriptar-desencriptar {
+    /*border: 5px solid green;*/
+    display: inline-block;
+    width: 50%;
+}
+
+.mensaje-usuario {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    background-color: #F3F5FC;
+    width: 100%;
+    height: 75%;
+}
+
+.encriptar-desencriptar p {
+    display: inline-block;
+    color: #495057;
+    font-size: 12px;
+}
+
+.botones-encriptacion {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    /*border: 3px solid purple;*/
+}
+
+.encriptar, .desencriptar{
+    margin: 0 10px;
+    background-color: #0A3871;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    bottom: 25px;
+}
+
+.desencriptar {
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871
+}
+
+.encriptar:hover, .desencriptar:hover, .copiar:hover {
+    background-color: #0288D1;
+    color: white;
+    border: none;
+}
+
+.encriptar:active, .desencriptar:active, .copiar:active{
+    background-color: black;
+    color: white;
+}
+
+.mensaje-no-encontrado {
+    background-color: white;
+    /*border: 5px solid black;*/
+    width: 22%;
+    height: 550px;
+    display: inline-block;
+    position: relative;
+    bottom: 50px;   
+    border-radius: 32px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.no-mensaje {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #343A40;
+    font-size: 24px;
+}
+
+.ingresar-mensaje {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.mensaje-revelado {
+    display: none;
+    background-color: white;
+    width: 22%;
+    height: 550px;
+    position: relative;
+    bottom: 50px;
+    border-radius: 32px;
+    text-align: center;
+    padding-top: 5px;  
+    /*display: none;*/
+}
+
+.mensaje {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    height: 85%;
+    margin-top: 5%;
+    margin: 0 auto;
+    text-align: center;
+}   
+
+.copiar {
+    color: #0A3871;
+    background-color: #F3F5FC;
+    padding: 15px;
+    border: 1px solid #0A3871;
+    border-radius: 25px;
+}
+
+
+footer {
+    background-color: #0A3871;
+    /*border: 3px solid purple;*/
+    padding: 8px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-media {
+    display: inline-block;
+    padding: 0 30px;
+} 
+
+.github, .linkedin {
+    width: 55px;
+    height: 55px;
+}
+
+.copyright {
+    padding: 0 30px;
+    position: relative;
+}

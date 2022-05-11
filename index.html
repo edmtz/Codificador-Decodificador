@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "styles.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <main>
+        <a href = "https://www.aluracursos.com/" target = "_blank"><img class = "logo-alura" src = "imgs/alura.png"></a>
+        <div class = "cajas-principales">
+            <form class = "encriptar-desencriptar">
+                <input type = "text" class = "mensaje-usuario" placeholder = "Ingrese el texto aquí">   
+                <img src = "imgs/warning.png" class = "advertencia">
+                <p>Solo letras minúsculas y sin acentos</p>
+                <div class = "botones-encriptacion">
+                    <button type = "button" class = "encriptar">Encriptar</button>
+                    <button type = "button" class = "desencriptar">Desencriptar</button>
+                </div>
+            </form>
+            <div class = "mensaje-no-encontrado">
+                <img src = "imgs/muñeco.png">
+                <p class = no-mensaje>Ningún mensaje fue encontrado</p>
+                <p class = "ingresar-mensaje">Ingrese el texto que desees encriptar o desencriptar</p>
+            </div>
+            <div class = "mensaje-revelado">
+                <div class = "mensaje">
+                <p class = "mensaje-desencriptado"></p>
+                </div>
+                <div class = "boton-copiar">
+                <button type = "button" class = "copiar">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class = "social-media">
+            <a href = "https://github.com/edmtz" target = "_blank"><img src = "imgs/github-logo.png" class = "github"></a>
+            <a href = "https://www.linkedin.com/in/salvador-eduardo-gonz%C3%A1lez-mart%C3%ADnez-842a6a122/?originalSubdomain=mx" target = "_blank"><img src = "imgs/linkedin-logo.png" class = "linkedin"><a>
+        </div>
+        <p class = "copyright">&copy Salvattore Mar<p>
+    </footer>
+    <script src = "javascript.js"></script>
+</body>
+</html>
