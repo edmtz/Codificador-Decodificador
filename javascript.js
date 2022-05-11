@@ -16,8 +16,8 @@ botonDesencriptar.addEventListener("click", desencriptar);
 copyButton.addEventListener("click", copiarTexto);
 
 /*Media Queries*/
-var tablet = window.matchMedia("(min-width: 960px)")
-var celular = window.matchMedia("(max-width: 402px)")
+var tablet = window.matchMedia("(min-width: 481px)")
+var celular = window.matchMedia("(max-width: 480px)")
 
 /*Funciones*/
 function encriptar() {
