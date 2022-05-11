@@ -15,6 +15,10 @@ botonEncriptar.addEventListener("click", encriptar);
 botonDesencriptar.addEventListener("click", desencriptar);
 copyButton.addEventListener("click", copiarTexto);
 
+/*Media Queries*/
+var tablet = window.matchMedia("(min-width: 960px)")
+var celular = window.matchMedia("(max-width: 402px)")
+
 /*Funciones*/
 function encriptar() {
     new_message = ''
@@ -37,7 +41,12 @@ function encriptar() {
     notFound.style.display = "none";
     revealedMessage.style.display = "inline-block";
     decrypted.textContent = new_message;
-    footer.style.marginTop = "63%";
+    if (tablet.matches) {
+        footer.style.marginTop = "63%";
+    } else if (celular.matches) {
+        footer.style.marginTop = "180%";
+    }
+    
     return new_message;
 }
 
